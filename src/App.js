@@ -7,14 +7,14 @@ import {
   Navigate
 } from "react-router-dom";
 
-import Home from './pages/Home';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<ComingSoon />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>
