@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './styles.module.css';
 import { Container, Row, Col } from "react-bootstrap";
+import Particle from "../../components/Particle";
 import Type from "./Type";
 import heroImage from "../../Assets/heroImage.svg";
 
@@ -8,6 +9,7 @@ function Home() {
   return (
     <section>
       <Container fluid className={styles.heroSection} id="home">
+        <Particle />
         <Container className={styles.homeContent}>
           <Row>
             <Col md={7} className={styles.homeHeader}>
