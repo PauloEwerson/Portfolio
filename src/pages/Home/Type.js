@@ -7,8 +7,13 @@ function Type() {
       options={{
         strings: [
           "Desenvolvedor Full Stack",
+          "JavaScript",
+          "Typescript",
           "React JS",
           "Node JS",
+          "Docker",
+          "MySQL",
+          "MongoDB",
         ],
         autoStart: true,
         loop: true,
