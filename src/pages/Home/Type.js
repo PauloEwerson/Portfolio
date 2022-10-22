@@ -3,10 +3,9 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
+    <Typewriter 
       options={{
         strings: [
-          "Desenvolvedor Full Stack",
           "JavaScript",
           "Typescript",
           "React JS",

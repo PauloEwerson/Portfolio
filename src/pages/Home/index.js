@@ -25,6 +25,11 @@ function Home() {
                 <strong className={styles.mainName}> PAULO EWERSON </strong>
               </h1>
 
+              <h2 className={styles.mainJob}>
+                Desenvolvedor
+                <strong className={styles.mainName}> Full Stack </strong>
+              </h2>
+
               <div className={styles.heroType}>
                 <Type />
               </div>
