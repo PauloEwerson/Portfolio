@@ -7,6 +7,7 @@
   padding-bottom: 30px !important;
   padding-top: 30px !important;
   background-color: rgb(31, 31, 31);
+  /* box-sizing: border-box; */
 }
 
 .homeContent {
@@ -35,7 +36,7 @@
 
 .heroHeadingName {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important;
 }
 
 .mainName {
@@ -45,6 +46,8 @@
 .heroType {
   padding: 50;
   text-align: left;
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
 }
 
 .heroCol {
