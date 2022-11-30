@@ -1,13 +1,14 @@
 .heroSection {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(../../../Assets/hero-bg.webp);
+  /* background-image: var(--image-gradient), url(../../../Assets/hero-bg.webp); */
+
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
   background-color: rgb(31, 31, 31);
-  /* box-sizing: border-box; */
+  /* background-image: linear-gradient(to left, rgb(31, 31, 31), rgb(18,43,43)); */
 }
 
 .homeContent {

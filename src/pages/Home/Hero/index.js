@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../../../components/Particle";
 import Type from "./Type";
 import heroImage from "../../../Assets/heroImage.svg";
+import MySelf from '../MySelf'
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <MySelf />
     </section>
   );
 }
