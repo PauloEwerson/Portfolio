@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+import "./style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -7,14 +9,14 @@ import {
   Navigate
 } from "react-router-dom";
 
-import ComingSoon from './pages/ComingSoon';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<ComingSoon />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>
