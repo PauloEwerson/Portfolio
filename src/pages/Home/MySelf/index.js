@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.css';
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../../Assets/perrfil-image.png";
+import myImg from "../../../Assets/perfil-image.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,7 +15,7 @@ const mySelf = () => {
         <Row>
         <Col md={4} className={styles.myAvtar}>
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className={styles.imgFluid} alt="avatar" />
             </Tilt>
           </Col>
           <Col md={8} className={styles.homeAboutDescription}>
