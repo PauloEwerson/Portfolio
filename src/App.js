@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 
 import {
+  Navbar,
   Home,
   Footer,
 } from './pages';
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
