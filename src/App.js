@@ -9,7 +9,10 @@ import {
   Navigate
 } from "react-router-dom";
 
-import Home from './pages/Home/Hero';
+import {
+  Home,
+  Footer,
+} from './pages';
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
