@@ -53,7 +53,7 @@ const mySelf = () => {
           <Col md={12} className={styles.homeAboutSocial}>
             <h1>ME ENCONTRE</h1>
             <p>
-            Sinta-se livre para <span className="green">se conecta </span>comigo
+            Sinta-se livre para <span className="green">se conectar </span>comigo
             </p>
             <ul className={styles.homeAboutSocialLinks}>
               <li className={styles.socialIcons}>

@@ -1,0 +1,14 @@
+.navbar {
+  /* background: #4dbfa6; */
+  color: white;
+}
+
+.navOptions{
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.navOptions:hover{
+  color: #4dbfa6;
+}
