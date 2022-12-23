@@ -1,14 +1,23 @@
 .navbar {
-  /* background: #4dbfa6; */
+  color: white;
+}
+
+.sticky {
+  background: rgb(77, 191, 166, 0.4);
   color: white;
 }
 
 .navOptions{
   color: white;
   font-weight: 700;
-  margin-bottom: 2px;
+  margin-right: 2rem;
 }
 
 .navOptions:hover{
   color: #4dbfa6;
+}
+
+.elementsMenu {
+  color: white;
+  font-size: 2rem;
 }
