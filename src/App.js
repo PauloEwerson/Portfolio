@@ -13,6 +13,7 @@ import {
   Navbar,
   Home,
   Footer,
+  About,
 } from './pages';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>

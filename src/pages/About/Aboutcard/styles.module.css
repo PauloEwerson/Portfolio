@@ -1,0 +1,15 @@
+.quoteCardView {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.aboutActivity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+.blockquoteFooter {
+  color: rgb(77, 191, 166) !important;
+}
