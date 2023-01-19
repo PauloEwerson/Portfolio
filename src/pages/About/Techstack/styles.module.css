@@ -1,0 +1,31 @@
+.techstackMain {
+  justify-content: "center";
+  padding-bottom: 50px;
+}
+
+.techIcons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgb(77, 191, 166) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgb(37, 100, 87) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .techIcons {
+    margin: 10px !important;
+  }
+}
+
+.techIcons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(89, 221, 192) !important;
+}
