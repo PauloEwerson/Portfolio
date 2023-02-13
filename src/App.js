@@ -14,6 +14,7 @@ import {
   Home,
   Footer,
   About,
+  Projects
 } from './pages';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Projects />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>

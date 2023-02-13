@@ -1,0 +1,27 @@
+.projectSection {
+  position: relative !important;
+  padding-top: 5rem !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.projectHeading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  padding-bottom: 20px;
+}
+
+.row {
+  justify-content: center !important;
+  padding-bottom: 10px !important;
+}
+
+.projectCard {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}

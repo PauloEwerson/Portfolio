@@ -1,0 +1,22 @@
+.projectCardView {
+  box-shadow: 0 4px 5px 3px var(--green) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.projectCardView:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px var(--green) !important;
+}
+
+.cardTitle {
+  font-size: 1.3em !important;
+  font-weight: 700 !important;
+}
+
+.cardText {
+  text-align: justify !important;
+}
