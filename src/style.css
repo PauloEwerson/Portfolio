@@ -12,6 +12,8 @@ html {
   );
 
   --imp-text-color: #4dbfa6;
+
+  --green: #4dbfa6;
 }
 
 .green {
