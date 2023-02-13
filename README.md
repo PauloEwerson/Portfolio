@@ -1,5 +1,13 @@
-# Portfolio
-Portfolio pessoal em React.js
+# Bom-vindo(a) ao meu Portfólio Pessoal
 
-# Em construção
-<img width="70%" alt="comingsoon" src=".github/coming-soon.svg">
+Olá! Eu sou apaixonado por criar soluções incríveis e inovadoras para os desafios que a tecnologia nos apresenta. 
+
+Aqui você pode conhecer melhor os projetos que eu já desenvolvi e entender um pouco mais sobre as minhas habilidades e experiência. 
+
+<p align="center">
+  <img width="50%" alt="comingsoon" src=".github/coming-soon.svg">
+</p>
+
+Qualquer dúvida ou sugestão, fique à vontade para entrar em contato!
+
+Agradeço pela visita :green_heart:
