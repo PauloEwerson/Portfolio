@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../../components/ProjectCards";
 import Particle from "../../components/Particle";
+import CEED from "../../Assets/Projects/ceed.png";
 import TFC from "../../Assets/Projects/TFC.png";
 import npsMail from "../../Assets/Projects/npsMail.png";
 import Proffy from "../../Assets/Projects/Proffy.png";
@@ -19,6 +20,17 @@ function Projects() {
           Aqui estão alguns projetos em que trabalhei.
         </p>
         <Row className={styles.row}>
+          <Col md={4} className={styles.projectCard}>
+            <ProjectCard
+              imgPath={CEED}
+              isBlog={false}
+              title="CEED"
+              description="O projeto desenvolvido para o CEED é uma SPA moderna criada em React com uma estilização cuidadosa utilizando Tailwind CSS. A aplicação tem como objetivo fornecer aos usuários uma visibilidade sobre a escola."
+              ghLink="https://github.com/PauloEwerson/ceed-web"
+              demoLink="https://ceed.com.br/"
+            />
+          </Col>
+
           <Col md={4} className={styles.projectCard}>
             <ProjectCard
               imgPath={TFC}
