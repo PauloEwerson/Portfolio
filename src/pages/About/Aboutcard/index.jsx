@@ -34,7 +34,7 @@ function AboutCard() {
             "Minha paixão por aprender coisas novas me impulsiona a criar conexões significativas 
             com pessoas e tecnologias, expandindo constantemente meu conhecimento e horizontes."{" "}
           </p>
-          <footer className={styles.blockquoteFooter}>`(Paulo Ewerson)`</footer>
+          <footer className={styles.blockquoteFooter}>(Paulo Ewerson)</footer>
         </blockquote>
       </Card.Body>
     </Card>

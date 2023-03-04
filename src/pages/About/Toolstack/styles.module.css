@@ -24,3 +24,7 @@
   overflow: hidden !important;
   border: 2.2px solid rgb(89, 221, 192) !important;
 }
+
+.toolName {
+  font-size: 1.2rem;
+}
