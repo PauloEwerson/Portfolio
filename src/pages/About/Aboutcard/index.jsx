@@ -31,10 +31,10 @@ function AboutCard() {
           </ul>
 
           <p className="green">
-            "Esforce-se para criar uma atmosfera de Empatia. 
-            Ser assertivo é construir um Legado de Diferença positiva!"{" "}
+            "Minha paixão por aprender coisas novas me impulsiona a criar conexões significativas 
+            com pessoas e tecnologias, expandindo constantemente meu conhecimento e horizontes."{" "}
           </p>
-          <footer className={styles.blockquoteFooter}>Andréia Loureiro</footer>
+          <footer className={styles.blockquoteFooter}>`(Paulo Ewerson)`</footer>
         </blockquote>
       </Card.Body>
     </Card>
