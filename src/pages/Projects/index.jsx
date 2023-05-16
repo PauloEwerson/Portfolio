@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../../components/ProjectCards";
 import Particle from "../../components/Particle";
+import TEAMS from "../../Assets/Projects/teams.png";
 import CEED from "../../Assets/Projects/ceed.png";
 import TFC from "../../Assets/Projects/TFC.png";
 import npsMail from "../../Assets/Projects/npsMail.png";
@@ -20,6 +21,17 @@ function Projects() {
           Aqui estão alguns projetos em que trabalhei.
         </p>
         <Row className={styles.row}>
+          <Col md={4} className={styles.projectCard}>
+            <ProjectCard
+              imgPath={TEAMS}
+              isBlog={false}
+              title="TEAMS"
+              description="O projeto Teams, desenvolvido em React-Native, organiza jogadores em turmas, permitindo cadastro/remoção de turmas/membros, armazenamento local e estilo consistente com o uso de Styled Components."
+              ghLink="https://github.com/PauloEwerson/teams"
+              demoLink="https://www.figma.com/proto/7ccBZRLLl7ga90OPeCnqzx/Teams?type=design&node-id=524-330&scaling=min-zoom&page-id=37%3A6"
+            />
+          </Col>
+          
           <Col md={4} className={styles.projectCard}>
             <ProjectCard
               imgPath={CEED}
