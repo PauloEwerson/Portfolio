@@ -23,6 +23,7 @@ function Projects() {
           Aqui estão alguns projetos em que trabalhei.
         </p>
         <Row className={styles.row}>
+          
           <Col md={4} className={styles.projectCard}>
             <ProjectCard
               imgPath={PEDIDOS}
