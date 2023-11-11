@@ -28,7 +28,7 @@ function Projects() {
               imgPath={PEDIDOS}
               isBlog={true}
               title="Controle de Pedidos"
-              description="Ferramenta dedicada a acompanhar as recargas de celulares pré-pagos em vista de uma meta mensal. Com ele, os usuários podem acessar informações detalhadas sobre: Venda acumulada, Venda do dia, Meta de venda para o dia, Média de vendas, Quantidade que falta para atingir a meta mensal, Projeção de quando a meta será atingida."
+              description="Sistema de gerenciamento de pedidos, projetado para facilitar o rastreamento e a organização de pedidos por clientes e datas. Ele apresenta funcionalidades de agrupamento de pedidos, permitindo uma visão mais estruturada e ordenada. A aplicação é construída com PHP e JavaScript, com uma interface de usuário intuitiva e eficiente."
               ghLink="https://self-justifying-dep.000webhostapp.com/"
               demoLink="https://self-justifying-dep.000webhostapp.com/"
             />
