@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../../components/ProjectCards";
 import Particle from "../../components/Particle";
+import PEDIDOS from "../../Assets/Projects/pedidos.png";
 import RECARGAS from "../../Assets/Projects/recargas.png";
 import TEAMS from "../../Assets/Projects/teams.png";
 import CEED from "../../Assets/Projects/ceed.png";
@@ -24,9 +25,20 @@ function Projects() {
         <Row className={styles.row}>
           <Col md={4} className={styles.projectCard}>
             <ProjectCard
+              imgPath={PEDIDOS}
+              isBlog={true}
+              title="Controle de Pedidos"
+              description="Ferramenta dedicada a acompanhar as recargas de celulares pré-pagos em vista de uma meta mensal. Com ele, os usuários podem acessar informações detalhadas sobre: Venda acumulada, Venda do dia, Meta de venda para o dia, Média de vendas, Quantidade que falta para atingir a meta mensal, Projeção de quando a meta será atingida."
+              ghLink="https://self-justifying-dep.000webhostapp.com/"
+              demoLink="https://self-justifying-dep.000webhostapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className={styles.projectCard}>
+            <ProjectCard
               imgPath={RECARGAS}
               isBlog={false}
-              title="Controle de Recargas"
+              title="Ranking de Recargas"
               description="Ferramenta dedicada a acompanhar as recargas de celulares pré-pagos em vista de uma meta mensal. Com ele, os usuários podem acessar informações detalhadas sobre: Venda acumulada, Venda do dia, Meta de venda para o dia, Média de vendas, Quantidade que falta para atingir a meta mensal, Projeção de quando a meta será atingida."
               ghLink="https://github.com/PauloEwerson/controle_recargas"
               demoLink="https://gutturalized-fees.000webhostapp.com/recargas/"
