@@ -14,10 +14,14 @@
 }
 
 .navOptions:hover{
-  color: #4dbfa6;
+  color: #57d6bb;
 }
 
 .elementsMenu {
   color: white;
   font-size: 2rem;
+}
+
+.navOptions:active, .navOptions:focus {
+  color: #4dbfa6;
 }
