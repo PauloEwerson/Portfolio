@@ -30,8 +30,8 @@ function Projects() {
               isBlog={true}
               title="Controle de Pedidos"
               description="Sistema de gerenciamento de pedidos, projetado para facilitar o rastreamento e a organização de pedidos por clientes e datas. Ele apresenta funcionalidades de agrupamento de pedidos, permitindo uma visão mais estruturada e ordenada. A aplicação é construída com PHP e JavaScript, com uma interface de usuário intuitiva e eficiente."
-              ghLink="https://self-justifying-dep.000webhostapp.com/"
-              demoLink="https://self-justifying-dep.000webhostapp.com/"
+              ghLink="http://controlepedidos.byethost7.com/"
+              demoLink="http://controlepedidos.byethost7.com/"
             />
           </Col>
 
